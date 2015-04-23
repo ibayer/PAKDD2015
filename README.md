@@ -58,9 +58,13 @@ Install metis
 http://glaros.dtc.umn.edu/gkhome/metis/metis/download
 
 1) download: http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/metis-5.1.0.tar.gz
+
 2) $ gunzip metis-metis-5.1.0.tar.gz
+
 3) $ cd metis-5.1.0
+
 4) $ make config shared=1
+
 5) $ sudo make install (should install to ``/usr/local/lib/libmetis.so``)
 if a different install location is chosen adjust path ``feature_extract.py line 84``
 
@@ -70,6 +74,7 @@ Dependencies For Benchmark Models
 Install alchemy-2
 -----------------
 1) download from https://code.google.com/p/alchemy-2/
+
 2) install to ``code/alchemy-2``, be careful it's > 400MB compiled and the
 experiments take a looong time.
 
@@ -77,4 +82,5 @@ experiments take a looong time.
 Install netkit-srl-1.4
 ----------------------
 1) download it from http://sourceforge.net/projects/netkit-srl/files/netkit-srl/netkit-srl-v1.4.0/
+
 2) extract to ``code/netkit-srl-1.4.0/``
