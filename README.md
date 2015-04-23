@@ -16,22 +16,22 @@ to reproduce our experiments.
 
 Run Experiments
 ===============
-All command should be executed from the /code directory
+All command should be executed from the ``/code`` directory
 
 run the experiments for our relational feature:
-``python single_feature_experiments``
+``python single_feature_experiments.py``
 
 run the experiments that combine NCC with other relational features:
-``python combined_feature_experiments``
+``python combined_feature_experiments.py``
 
 run the experiments for figure 10:
-``python bow_feature_experiments``
+``python bow_feature_experiments.py``
 
 run the netkit (wvRN and nLB) experiments with:
-``python netkit_experiments``
+``python netkit_experiments.py``
 
 run the alchemy experiments with (can take a couple days):
-``python alchemy experiments``
+``python alchemy_experiments.py``
 
 
 Generate Plots
@@ -39,15 +39,17 @@ Generate Plots
 tested with: R version 3.1.0 (2014-04-10) and ggplot2_1.0.0
 
 Aggregate result files:
-python merge_results
+``python merge_results.py``
 
 Generate plots:
-Rscript paper_figs.R
+``Rscript paper_figs.R``
 
 Dependencies
 ============
 1) "Metis for Python" ``pip install https://bitbucket.org/kw/metis-python/get/1ba8f5f85608.zip``
+
 2) ``pip install  numpy==1.8.0``
+
 3) the remaining dependencies listed in dependencies.txt
 ``pip install -r code/dependencies.txt``
 
