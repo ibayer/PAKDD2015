@@ -1,0 +1,8 @@
+@nodetype paper
+@attribute id KEY
+@attribute class CATEGORICAL
+@nodedata cora.csv
+
+@edgetype citation paper paper
+@reversible
+@edgedata cora.rn

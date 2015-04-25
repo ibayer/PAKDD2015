@@ -1,0 +1,8 @@
+@nodetype paper
+@attribute id KEY
+@attribute class CATEGORICAL
+@nodedata citeseer.csv
+
+@edgetype citation paper paper
+@reversible
+@edgedata citeseer.rn

@@ -1,0 +1,8 @@
+@nodetype entity
+@attribute id KEY
+@attribute class CATEGORICAL
+@nodedata imdb_all.csv
+
+@edgetype link entity entity
+@reversible
+@edgedata imdb_all.rn
