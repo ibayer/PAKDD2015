@@ -4,7 +4,16 @@ Graph Based Relational Features for Collective Classification
 
 Please cite the following paper if you use our code:
 
-TODO: "add bibtex after PAKDD Conference"
+```
+@incollection{bayer2015graph,
+  title={Graph Based Relational Features for Collective Classification},
+  author={Bayer, Immanuel and Nagel, Uwe and Rendle, Steffen},
+  booktitle={Advances in Knowledge Discovery and Data Mining},
+  pages={447--458},
+  year={2015},
+  publisher={Springer}
+}
+```
 
 Disclaimer
 ---------
